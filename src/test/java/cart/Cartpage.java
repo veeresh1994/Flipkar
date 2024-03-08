@@ -1,8 +1,11 @@
 package cart;
 
+import org.testng.annotations.Test;
+
 public class Cartpage {
 	
-	public static void main(String []args)
+	@Test
+	public void cart()
 	{
 		System.out.println("Cart page displayed");
 	}
